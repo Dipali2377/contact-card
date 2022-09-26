@@ -1,0 +1,67 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+.container {
+  /* background-color: purple; */
+  height: 100%;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.front {
+  background-color: pink;
+  width: 400px;
+  height: 200px;
+  margin-bottom: 100px;
+  background: linear-gradient(50deg, white 70%, rgb(214, 166, 214) 30%);
+  border: 2px solid lightgray;
+  box-shadow: 0 5px 8px rgb(191, 82, 191);
+  border-radius: 3px;
+}
+.back {
+  background-color: red;
+  width: 400px;
+  height: 200px;
+  background: linear-gradient(50deg, white 30%, rgb(189, 124, 189) 70%);
+  border: 2px solid lightgray;
+  box-shadow: 0 5px 8px rgb(191, 82, 191);
+  border-radius: 3px;
+}
+.content {
+  padding: 10px;
+  margin-left: 5px;
+}
+.name {
+  text-shadow: 0 2px 4px purple;
+  color: rgb(156, 115, 251);
+}
+.title {
+  color: gray;
+  font-style: italic;
+  font-weight: bolder;
+}
+.content a {
+  text-decoration: none;
+  display: inline;
+  /* padding: 5px; */
+  margin-top: 2px;
+}
+.logo {
+  height: 70px;
+  width: 70px;
+  margin-top: 70px;
+  box-shadow: 0 5px 8px rgb(251, 249, 251);
+  /* box-shadow: 0 5px 8px rgb(183, 100, 183); */
+  margin-left: 145px;
+}
+.icons {
+  padding: 5px;
+}
+h3 {
+  margin-left: 7px;
+  color: rgb(105, 102, 102);
+}
